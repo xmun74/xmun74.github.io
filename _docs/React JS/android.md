@@ -1,6 +1,6 @@
 ---
 title: Android
-category: Devices
+category: React JS
 order: 2
 ---
 

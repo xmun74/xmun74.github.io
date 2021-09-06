@@ -4,7 +4,7 @@ sitemap: false
 ---
 
 $baseurl: "{{ site.baseurl }}";
-$body-background-color: #2B2E31;
+$body-background-color: #2b2e31;
 
 $content-max-width: 800px;
 $content-color: #222;
@@ -30,3 +30,14 @@ $full-width-break: $nav-width + ($space * 4) + $content-max-width;
 @import "code";
 @import "tables";
 @import "layout";
+// 전체 폰트 변경
+@font-face {
+  font-family: "IBM Plex Sans KR", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "IBM Plex Sans KR", sans-serif;
+}

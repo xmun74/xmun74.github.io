@@ -1,6 +1,6 @@
 ---
 title: iOS
-category: Devices
+category: React JS
 order: 1
 ---
 

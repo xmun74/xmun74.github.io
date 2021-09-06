@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Hello wow~
+title: mooncoder's TIL
 url: "https://xmun74.github.io/"
 baseurl:
 google_analytics_key:
@@ -11,7 +11,7 @@ show_full_navigation: true
 logo: /siteicon.png
 description: Product documentation template for Jekyll.
 author:
-  name:
+  name: TaeGyeong Mun
   email:
   twitter: # twitter username without the @ symbol
 social:

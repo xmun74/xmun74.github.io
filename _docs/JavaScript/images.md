@@ -1,6 +1,6 @@
 ---
 title: Images
-category: Media
+category: JavaScript
 order: 1
 ---
 
@@ -18,12 +18,12 @@ To share an image:
 
 Supported types:
 
-* JPEG
-* PNG
-* BMP
-* GIF
+- JPEG
+- PNG
+- BMP
+- GIF
 
 Unsupported types:
 
-* SVG
-* WEBP
+- SVG
+- WEBP

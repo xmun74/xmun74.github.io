@@ -1,6 +1,6 @@
 ---
 title: Video
-category: Media
+category: JavaScript
 order: 2
 ---
 
