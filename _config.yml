@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: mooncoder's TIL
+title: MoonCoder's TIL
 url: "https://xmun74.github.io/"
 baseurl:
 google_analytics_key:
@@ -15,7 +15,7 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Edition Template
+  name: MoonCoder's TIL
   links:
     - https://github.com/CloudCannon/edition-jekyll-template
 
