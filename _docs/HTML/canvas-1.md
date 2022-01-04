@@ -1,5 +1,5 @@
 ---
-title: canvas 1
+title: canvas-1
 category: HTML
 order: 1
 ---
@@ -9,14 +9,10 @@ order: 1
 <canvas>는 HTML5의 요소로서, Javascript를 사용해 웹페이지에 그림을 그리는데 사용한다.
 캔버스의 크기는 300px _ 150px (width _ height)가 초기 설정값이며, HTML height와 width 속성을 사용하여 바꿀 수 있습니다. 캔버스에 그림을 그리려면 JS context 오브젝트를 사용하여 그림을 생성할 수 있습니다.
 
----
-
 ### VScode 설정
 
 - Extensions에서 live Server설치. (테스트하기 위해서)
   index.html에서 우클릭-Open with live Server 클릭해서 실행
-
----
 
 ### canvas 기본설정
 
@@ -102,8 +98,6 @@ window.onload = () => {
 };
 ```
 
----
-
 ### 고해상도에서 canvas사용하기
 
 물리적 픽셀을 2배로 만들고 css 픽셀에서 줄인다.
@@ -185,8 +179,6 @@ window.onload = () => {
 - resize에서 ctx.scale(2, 2);
   but! ctx로 그린 그림크기도 작아지므로 canvas크기가 2배 커진만큼 ctx도 2배로 키워줘야 원래 비율대로 그림이 그려진다.
 
----
-
 ## resize()
 
 - 브라우저 크기에 맞춰 캔버스 크기를 지정하는 resize 함수를 생성
@@ -204,19 +196,13 @@ window.onload = () => {
 
 브라우저를 렌더할 때, **reflow**(색,위치 등 배치하는 과정), **repaint**(계산된 요소들을 그리는 과정)가 있다. animation동작할때 repaint과정이 끝나지도 았았는데 reflow좌표이동하는 경우에 부자연스러운 동작이 나타난다. 그래서 repaint할 준비과정이 최적화될 때까지 기다려준 다음, 업데이트하는 함수를 호출한다. 프레임유실을 막아준다.
 
----
-
 **[색,윤곽선,투명도,패턴 ...](https://developer.mozilla.org/ko/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors)**
-
----
 
 ## 사각형
 
 1. ctx.**fillRect**(x, y, width, height) : 색 채워진 사각형
 2. ctx.**clearRect**(x, y, width, height) : 특정영역을 지우기
 3. ctx.**strokeRect**(x, y, width, height) :테두리만 있는 사각형
-
----
 
 ## 선
 
@@ -225,8 +211,6 @@ window.onload = () => {
 3. ctx.**lineTo**(x, y) : 선을 만든다 (보이진 않음)
 4. ctx.**stroke**() : 윤곽선을 그린다 (보임)
 5. ctx.**closePath**() : 선 마침점 알리기(fill()는 자동으로 닫히므로 안해도됨)
-
----
 
 ## 호(arc)나 원
 
