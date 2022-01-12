@@ -8,7 +8,7 @@ order: 1
 
 - canvas는 HTML5의 요소로서, Javascript를 사용해 웹페이지에 그림을 그리는데 사용한다.
 - 캔버스의 크기는 300px _ 150px (width _ height)가 초기 설정값이며, HTML height와 width 속성을 사용하여 바꿀 수 있습니다.
-- 캔버스에 그림을 그리려면 JS context 오브젝트를 사용하여 그림을 생성할 수 있습니다.
+- 캔버스에 그림을 그리려면 JS Context 객체를 사용하여 그림을 생성할 수 있습니다.
 
 ### VScode 설정
 
@@ -53,7 +53,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-color: #ffcaec;
+  background-color: #ffcaec; //배경색 아무거나
 }
 
 canvas {
@@ -185,7 +185,7 @@ window.onload = () => {
   두배지만 css에서 압축해서 브라우저에서 다 보이게 함으로 해상도가 높아보인다.
 
 - **resize에서 ctx.scale(2, 2);**  
-  **but!** ctx로 그린 그림크기도 작아지므로 canvas크기가 2배 커진만큼 ctx도 2배로 키워줘야 원래 비율대로 그림이 그려진다.
+  **but)** ctx로 그린 그림크기도 작아지므로 canvas크기가 2배 커진만큼 ctx도 2배로 키워줘야 원래 비율대로 그림이 그려진다.
 
 ---
 
